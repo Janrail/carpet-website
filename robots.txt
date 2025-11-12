@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf
+Disallow: /*.doc
+Disallow: /*.docx
+
+# Sitemap location
+Sitemap: https://localcarpetfitter.co.uk/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
+# Specific user agents
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
